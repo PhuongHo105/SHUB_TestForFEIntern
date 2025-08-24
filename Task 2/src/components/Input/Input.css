@@ -1,0 +1,40 @@
+.input-container {
+  margin: 1em 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 5px;
+  color: black;
+  border-radius: 8px;
+}
+
+.input-container label {
+  font-size: 0.9em;
+  color: #333;
+}
+
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  color: inherit;
+  transition: border-color 0.3s;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-bottom: 2px solid #213547;
+}
+
+.input-container,
+.input-container input {
+  box-sizing: border-box;
+}
+
+.input-container input[type="date"],
+.input-container input[type="datetime"] {
+  padding: 0.5em 1em;
+  background-color: white;
+  color: black;
+}
