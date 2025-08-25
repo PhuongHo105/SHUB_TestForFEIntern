@@ -6,11 +6,15 @@
 
 ## Thực thi
 1. Mở terminal tại thư mục dự án
-2. Chạy lệnh sau:
+2. Cài đặt các thư viện cần thiết
+   ```bash
+   npm install
+   ```
+3. Chạy lệnh sau để thực thi:
    ```powershell
    node task4.js
    ```
-3. Chương trình sẽ tự động:
+4. Chương trình sẽ tự động:
    - Lấy dữ liệu từ API
    - Xử lý các truy vấn
    - Gửi kết quả lên API
